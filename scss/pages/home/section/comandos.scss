@@ -1,0 +1,219 @@
+.comandos{
+     @media screen and (max-width: 480px){
+        display: none;
+    }
+    .comandos_rowTop{
+        >div.col-md-4{
+            @media screen and (max-width: 991px){
+                border: 5px solid #fff;
+            }
+        }
+
+    }
+    .condosCart{
+        height: 440px;
+        margin: 0 -15px;
+        .condosCart__foto{
+            height: 290px;
+            overflow: hidden;
+            position: relative;
+            &:hover{
+                .contactInfo{
+                    opacity: 1;
+                    bottom: 0;
+                    transition: all 0.5s;
+                }       
+            }
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+            .contactInfo{
+                height: max-content;
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+                background: #ffffffb3;
+                padding: 5px 10px;
+                opacity: 0;
+                transition: all 0.5s;
+                overflow: hidden;
+                bottom: -100%;
+                .name{
+                    color: #034859;
+                    font-family: "Playfair Display";
+                    font-size: 16px;
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                    margin: 0;
+                    height: 21px;
+                }
+                .status,.mail{
+                    color: #034859;
+                    font-family: "Open Sans Light";
+                    font-size: 0.78rem;
+                    font-weight: 300;
+                    margin: 0;
+                    height: 17px;
+                    white-space: nowrap;
+                }
+                .mail{
+                    font-size: 0.9rem;
+                    font-style: italic;
+                    height: 22px;
+                }
+            }
+            
+        }
+        .condosCart__text{
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .--bgBlue{
+            background: #e3f2f9;
+        }
+        .--bgWhite{
+            background: #f9f9f9;
+        }
+        .--bgPink{
+            background: #f44973;
+        }
+
+    }
+    .comandosCartTex{
+        .condosCart__top{
+            height: 290px;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .condosCart__bottom{
+            height: 150px;
+            background-color: #a1bee6;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            >p{
+                font-style: italic;
+            }
+        }
+        .condosCart__top--a{
+            @extend .condosCart__top;
+            background: #e3f2f9;
+        }
+        
+        .condosCart__bottom--a{
+            @extend .condosCart__bottom;
+                background: #f9f9f9;
+        }
+    }
+}
+
+.path,.null{
+    @media screen and (max-width: 1060px){
+        display: none;
+    }
+}
+
+.mobileComand{
+    display: none;
+    @media screen and (max-width: 480px){
+        display: block;
+    }
+    .our-team{
+        text-align: center;
+        padding: 20px;
+        font-size: 21px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .pancil-team{
+        text-align: center;
+        background-color: #f44973;
+        padding: 20px;
+        font-size: 12px;
+    }
+    .small-comand{
+        text-align: center;
+        padding: 20px;
+        background-color: #a1bee6;
+    }
+    .comandColon-1{
+        padding: 5px;
+        h2,p{
+            text-align: center;
+        }
+
+        h2{
+            font-size: 20px;
+            margin-top: 10px;
+            @media screen and (max-width: 400px){
+                font-size: 18px;
+            }
+        }
+        
+        .small{
+            font-size: 12px;
+            font-weight: 300;
+            @media screen and (max-width: 400px){
+                font-size: 10px;
+            }
+        }
+
+        p{
+            font-size: 13px;
+            margin: 5px;
+            @media screen and (max-width: 400px){
+                font-size: 11px;
+            }
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+    .comandColon-2{
+        padding: 5px;
+        h2,p{
+            text-align: center;
+        }
+
+        h2{
+            font-size: 20px;
+            margin-top: 10px;
+            @media screen and (max-width: 400px){
+                font-size: 18px;
+            }
+        }
+        
+        .small{
+            font-size: 12px;
+            font-weight: 300;
+            @media screen and (max-width: 400px){
+                font-size: 10px;
+            }
+        }
+
+        p{
+            font-size: 13px;
+            margin: 5px;
+            @media screen and (max-width: 400px){
+                font-size: 11px;
+            }
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+    .no-padding{
+        padding: 0px;
+    }
+}

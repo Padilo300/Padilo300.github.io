@@ -1,0 +1,42 @@
+.companyWiner{
+    .figWiner{
+        .yearWin{
+            color: #034859;
+            font-family: "Playfair Display";
+            font-size: 28px;
+            font-weight: 700;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+
+        }
+        .yw-1{
+            max-width: 240px;
+        }
+        .yw-2{
+            max-width: 280px;
+        }
+        img{
+            display: block;
+            margin: 20px auto;
+            @media screen and (max-width: 990px) {
+               height: 100%;
+            }
+        }
+        figcaption{
+            max-width: 325px;
+            color: #034859;
+            font-family: "Open Sans";
+            font-size: 21px;
+            margin: 0 auto;
+            text-align: center;
+            @media screen and (max-width: 990px) {
+                font-size: 19px;
+            }
+            @media screen and (max-width: 768px) {
+                text-align: center;
+                font-size: 17px;
+            }
+        }
+    }
+}

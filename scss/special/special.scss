@@ -1,0 +1,94 @@
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px 2px rgba(0,0,0,0.3); /*цвет*/
+    background:none; /*фон у вас не будет фоновой цвета потому что он на none изменяем его на любой цветом*/
+        opacity:.7;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  border-radius: 5px;	
+  background: none; 
+ -webkit-box-shadow: inset 0 0 60px #a1bee6;
+  cursor: pointer;
+}
+
+.whiteSpace{
+    height: 300px;
+    @media screen and (max-width: 767px) {
+        height: 50px;
+    }
+}
+.steps svg{
+    @media screen and (max-width: 767px) {
+        display: none !important;
+    }
+}
+
+.sprite {
+    background-image: url("../img/ico/sprite.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-2-layers {
+    width: 53px;
+    height: 40px;
+    background-position: -5px -5px;
+}
+
+.sprite-8-layers {
+    width: 48px;
+    height: 50px;
+    background-position: -68px -5px;
+}
+
+.sprite-UK {
+    width: 30px;
+    height: 20px;
+    background-position: -5px -65px;
+}
+
+.sprite-dollar {
+    width: 62px;
+    height: 34px;
+    background-position: -45px -65px;
+}
+
+.sprite-fb {
+    width: 11px;
+    height: 20px;
+    background-position: -117px -65px;
+}
+
+.sprite-kalk {
+    width: 40px;
+    height: 40px;
+    background-position: -126px -5px;
+}
+
+.sprite-pen {
+    width: 30px;
+    height: 30px;
+    background-position: -138px -55px;
+}
+
+.sprite-phone {
+    width: 15px;
+    height: 15px;
+    background-position: -5px -95px;
+}
+
+.sprite-rus {
+    width: 30px;
+    height: 20px;
+    background-position: -117px -95px;
+}
+
+.sprite-ukr {
+    width: 30px;
+    height: 20px;
+    background-position: -5px -125px;
+}

@@ -1,0 +1,73 @@
+// Подключаем  Bootstrap
+
+// Требуемое
+@import "../../node_modules/bootstrap/scss/functions" ;
+@import "../../node_modules/bootstrap/scss/variables" ;
+@import "../../node_modules/bootstrap/scss/mixins"    ;
+
+// Опциональное
+@import "../../node_modules/bootstrap/scss/reboot"            ; // normalize
+@import "../../node_modules/bootstrap/scss/grid"              ; // сетка
+@import "../../node_modules/bootstrap/scss/modal"             ; // модальные окна
+@import "../../node_modules/bootstrap/scss/utilities/_text"   ; // выравнивание текста
+
+// переменные
+@import "variable/variable"   ; 
+
+
+// special animation->placeholder; castom browserScrollBar
+@import "special/special.scss"      ;
+@import "special/placeholder.scss"  ;
+@import "special/slider"            ;
+@import "special/lightBox"          ;
+
+// head
+@import "head/header"       ;
+@import "head/mobile_nav"   ;
+@import "head/nav"          ;
+
+// body 
+@import 'body/button/button';
+@import 'body/form/form'    ;
+@import 'body/text/text'    ;
+
+// footer
+@import 'footer/footer'     ;
+
+// pages HOME
+@import 'pages/home/first_section'              ;
+@import 'pages/home/section/howWeWork'          ; // первая секция
+@import 'pages/home/section/customers-block'    ; // нам доверяют
+@import 'pages/home/section/sectionAboute'      ; // О нас
+@import 'pages/home/section/whyWe'              ; // Почему мы
+@import 'pages/home/section/scrollText'         ; // Наши услуги
+@import 'pages/home/section/sectionRevies'      ; // Отзывы
+@import 'pages/home/section/sliderSection'      ; // карусель
+@import 'pages/home/section/wrap'               ; // обертка для нескольких секций с общим фоном
+@import 'pages/home/section/steps'              ; // шаги для сотрдничества
+@import 'pages/home/section/comandos'           ; // Наша команда
+@import 'pages/home/section/companyStart'       ; // старт компании и награды
+@import 'pages/home/section/companyWiner'       ; // Победы года
+@import 'pages/home/section/section_form'       ; // Форма обратной связи
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700&subset=cyrillic');
+body{
+    background: #fff;
+    font-family: "Open Sans";
+    color: $mainColorText;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+a{
+    &:hover{
+        text-decoration: none;
+        cursor: pointer !important;
+    }
+}

@@ -1,0 +1,29 @@
+.sectionAboute{
+    .bossWrap{
+        img{
+            margin: 6px 0;
+            @media screen and (max-width: 1199px) {
+                margin: 0 auto;
+                display: block;
+            }
+            @media screen and (max-width: 768px) {
+                width: 45%;
+            }
+
+            @media screen and (max-width: 525px) {
+                width: 55%;
+            }
+        }
+        figcaption{
+            *{
+                margin: 0;
+                text-align: left;
+            }
+            @media screen  and (max-width: 767px){
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

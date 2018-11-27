@@ -1,0 +1,8 @@
+.wrap{
+    background: url('../img/bg/Созидание.webp') 100% 35% no-repeat,
+                url('../img/bg/Shape.webp' ) 0 900px no-repeat, 
+                url('../img/bg/Общение.webp' ) 30% 100% no-repeat;
+    @media screen and (max-width: 767px) {
+        background: none;
+    }                
+}

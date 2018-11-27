@@ -1,0 +1,109 @@
+.whyWe{
+    background: url('../img/bg/bckd.png');
+    min-height: 540px;
+    @media screen and (max-width: 1199px) {
+        background: url('../img/bg/bckd_mob.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    @media screen and (max-width: 719px){
+        background: url('../img/bg/whiWe_mob.png');
+        background-size: cover;
+    }
+    .title{
+        color: #fff;
+        transition: all 0.3s;
+        margin: 35px 0;
+       
+    }
+    .cartAboute{
+        @media screen and (max-width: 719px){
+            padding: 30px 0;
+        }
+        .circle{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            @media screen and (max-width: 1200px){
+                left: -20px;
+            }
+            width: 92px;
+            height: 92px;
+            background: #f9f9f9;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            box-shadow: 0 4px 22px -6px #034859;
+            position: relative;
+            top: 15px;
+            margin: 0 auto;
+            left: -10px;
+            transition: all 0.6s;
+            @media screen and (max-width: 719px) {
+                left: 0;
+                top: 0;
+            }
+            
+            &>div{
+                margin: 0 auto;
+            }
+        }
+        &:hover{
+            .circle{
+                transform: rotate(-360deg);
+                background-color: #a1bee6  !important;
+                svg{
+
+                    *{
+                        fill: #fff !important;   
+                    }
+                }
+            }
+            .titleCreme--white{
+                color: $colorTextCreme;
+                
+            }
+        }
+        .titleCreme--white{
+            text-align: left;
+            white-space: normal;
+            @media screen and (max-width: 575px) {
+                text-align: center;
+                margin-top: 30px;
+            }
+            @media screen and (max-width: 400px) {
+                padding: 5px;
+            }
+        }
+
+        figcaption{
+            
+            .discription{
+                width: 455px; 
+                height: 120px;
+                color: #f9f9f9;
+                font-family: "Open Sans Light";
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 24px;
+                @media screen and (max-width: 1199px) {
+                    width: auto;
+                }
+                @media screen and (max-width: 768px) {
+                    text-align: left; 
+                }
+                @media screen and (max-width: 575px) {
+                    text-align: center;
+                }
+                @media screen and (max-width: 400px) {
+                    padding: 5px;
+                }
+            }
+        }
+        
+    }
+    
+}

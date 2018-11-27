@@ -1,0 +1,64 @@
+.step-1{
+    margin-top: 150px;
+}
+.steps{
+    .containerTexCenter{
+        margin: 0 auto;
+        margin-top: 190px;
+        
+        max-width: 690px;
+        
+        @media screen and (max-width: 767px) {
+            margin-top: 80px;
+        }
+    }
+}
+.step-2{
+    background: url('../img/bg/bckgd_1.webp');
+    height: 700px;
+}
+.step-3{
+    background: url('../img/bg/bckgd_2,3.webp');
+    height: 1400px;
+    background-position: 50% 49%;
+    
+    @media screen and (max-width: 767px) {
+        background-position: 50% 0%;
+        background-size: 265%;
+        background-repeat: no-repeat;
+        height: max-content;
+    }
+    @media screen and (max-width: 767px) {
+        max-height: 670px;
+
+    }
+    .partTop{
+        height: 700px;
+        @media screen and (max-width: 767px) {
+            height: 300px;
+        }
+    }
+}
+.step-4{
+    background: url('../img/bg/Slice_4.webp');
+    height: 700px;
+    @media screen and (max-width: 767px) {
+        max-height: 400px;
+    }
+}
+
+.step-5{
+    background: url('../img/bg/bckgd_5.webp');
+    height: 700px;
+    .containerTexCenter{
+        margin-top: 300px;
+    }
+    @media screen and (max-width: 767px) {
+        max-height: 400px;
+        background-size: 337%;
+        background-position: 46% 98%;
+        .containerTexCenter{
+            margin-top: 120px;
+        }
+    }
+}
